@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+</head>
+<body>
+
+    <h2>Student Enrollment Form</h2>
+
+    <form id="studentForm">
+        <label for="rollNo">Roll NO:</label><br>
+        <input type="text" id="rollNo" name="rollNo" required><br><br>
+
+        <label for="fullName">Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="className">Class:</label><br>
+        <input type="number" id="className" name="className" required><br><br>
+
+        <label for="birthDate">DOB:</label><br>
+        <input type="date" id="birthDate" name="birthDate" required><br><br>
+
+        <label for="address">address:</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="enrollDate">Enrol Date:</label><br>
+        <input type="date" id="enrollDate" name="enrollDate" required><br><br>
+
+        
+        <button type="button" id="saveBtn" onclick="saveStudent()" disabled>Save</button>
+        <button type="button" id="changeBtn" onclick="changeStudent()" disabled>Change</button>
+        <button type="button" id="resetBtn" onclick="resetForm()" disabled>Reset</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
