@@ -6,11 +6,11 @@
 The application is built using HTML and JavaScript, focusing on basic form handling and database interaction.
 
 ## The description of project
-`Database Details
+Database Details
 	•	Database Name: SCHOOL-DB
 	•	Relation/Table Name: STUDENT-TABLE
 	•	Primary Key: Roll-No
-	•	Connection Token: 90934733|-31949208829177514|90955824`
+	•	Connection Token: 90934733|-31949208829177514|90955824
 
  ## Benefits of using JsonPowerDB
 * No installation needed
@@ -19,7 +19,7 @@ The application is built using HTML and JavaScript, focusing on basic form handl
 * Use of connection token enhances the security.
 * Fast and simple using JSON API.
 
-##Release History
+## Release History
 >This is my first JsonPowerDB related code on Github uploaded on 27/04/2025.
   
 ## Sources
