@@ -1,6 +1,6 @@
 # JPDB_project
 
-##**Student Enrollment Form** that will store data in STUDENT-TABLE relation of SCHOOL-DB database.
+## **Student Enrollment Form** that will store data in STUDENT-TABLE relation of SCHOOL-DB database.
 >This project is a Student Enrollment Form that connects to a JsonPowerDB database (SCHOOL-DB) and allows you to add and update student records in the STUDENT-TABLE relation.
 
 The application is built using HTML and JavaScript, focusing on basic form handling and database interaction.
@@ -12,7 +12,7 @@ The application is built using HTML and JavaScript, focusing on basic form handl
 	•	Primary Key: Roll-No
 	•	Connection Token: 90934733|-31949208829177514|90955824`
 
- ##Benefits of using JsonPowerDB
+ ## Benefits of using JsonPowerDB
 * No installation needed
 *	Built-in indexing for quick search and retrieval.
 * Easy to use.
@@ -22,12 +22,12 @@ The application is built using HTML and JavaScript, focusing on basic form handl
 ##Release History
 >This is my first JsonPowerDB related code on Github uploaded on 27/04/2025.
   
-##Sources
-*My brain.
-*Slight use of Internet.
-*Youtube lectures.
+## Sources
+* My brain.
+* Slight use of Internet.
+* Youtube lectures.
 
-##How It Works
+## How It Works
 	1.	On page load, the form resets and focuses on Roll No input.
 	2.	User enters a Roll No:
 	•	If it does not exist, user can save new student details.
