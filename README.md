@@ -7,10 +7,11 @@ The application is built using HTML and JavaScript, focusing on basic form handl
 
 ## The description of project
 Database Details
-	1. Database Name: SCHOOL-DB
-	2. Relation/Table Name: STUDENT-TABLE
-	3. Primary Key: Roll-No
-	4. Connection Token: 90934733|-31949208829177514|90955824
+1. Database Name: SCHOOL-DB
+2. Relation/Table Name: STUDENT-TABLE
+3. Primary Key: Roll-No
+4. Connection Token: 90934733|-31949208829177514|90955824
+   
 
  ## Benefits of using JsonPowerDB
 * No installation needed
