@@ -1,6 +1,6 @@
 const dbName = "SCHOOL-DB";
 const relName = "STUDENT-TABLE";
-const baseUrl = "http://api.login2explore.com:5577";
+const baseUrl = "https://api.login2explore.com:5577";
 const connToken = "90934733|-31949208829177514|90955824";
 
 function resetForm() {
