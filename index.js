@@ -116,7 +116,11 @@ function changeStudent() {
 
     let updateRequest = createUPDATERecordRequest(connToken, JSON.stringify(student), dbName, relName, rec_no);
     jQuery.ajaxSetup({async: false});
-    let updateRes = executeCommandAtGivenBaseUrl(updateRequest, baseUrl, "/api/iml");
+    let resObj = await fetch('/api/proxy?endpoint=/api/iml', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+        body: request,
+    }).then(res => res.json());
     jQuery.ajaxSetup({async: true});
 
     alert('Student record updated successfully!');
